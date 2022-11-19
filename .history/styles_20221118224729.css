@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+
+:root{
+    --fontnormal: 'Staatliches', cursive;
+    --fonttitle:  'PT Sans', sans-serif;
+    --whithe: rgb(254, 255, 254);
+    --green: rgb(53, 255, 105);
+    --blackin: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    background-color: var(--green);
+    font-family:var(--fonttitle);
+    font-weight: bolder;
+    text-align: center;
+    marg
+}
