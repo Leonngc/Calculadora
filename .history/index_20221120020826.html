@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculaadora d+ 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">CALCULADORA D+ 2.0</h1>
+
+        <div class="links">
+            <nav><a href="#">Quem sou eu</a></nav>
+            <nav><a href="#">Contatos</a></nav>
+            <nav><a href="#">Outros projetos</a></nav>
+
+    </header>
+
+    <main class="infos">
+  
+            <h2>Olá usuário! Escolha o tipo de operação desejada e preencha os dados corretamente.</h2>
+        <div class="operacoes">
+            
+                <label for="">Soma</label><input type="radio" name="operator" id="soma" class="operation" checked>
+                <label for="">Subtração</label><input type="radio" name="operator" id="subtr" class="operation">
+                <label for="">Multiplicação</label><input type="radio" name="multi" id="multi" class="operation">
+                <label for="">Divisão</label><input type="radio" name="divisao" id="divisao" class="operation">
+                <label for="">Potenciação</label><input type="radio" name="potencia" id="potencia" class="operation">
+                <br>
+                <input type="number" class="numbers" id="n1" placeholder="Valor 1" required> <input type="number" class="numbers" id="n1" placeholder="Valor 2" required> <br>
+
+                <input type="button" value="Calcular" class="button-calc" onclick="calcular()">
+
+                <div id="res">
+
+                </div>
+        </div>
+
+        
+    </main>
+
+    <footer>
+        Projeto criado por <a href="#">@leonn_gc</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
