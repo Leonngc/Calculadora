@@ -66,7 +66,7 @@ main {
   width: 100px;
   min-width: 320px;
   padding: 30px;
-  height: 330px;
+  height: 300px;
   text-align: center;
   border-radius: 10px 10px;
   border: ridge rgba(0, 0, 0, 0.547);
@@ -133,7 +133,6 @@ main {
 #res{
     margin-top: 20px;
     font-size: 22px;
-    margin-bottom: 15px;
 }
 
 footer {
