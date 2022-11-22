@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+@media only screen and (max-device-widht: 900px) {
+  .infos {
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: bebas, sans-serif;
+  src: url(fontes/BebasNeue-Regular.otf);
+}
+
+:root {
+  --fontnormal: "Staatliches", cursive;
+  --fonttitle: "PT Sans", sans-serif;
+  --whithe: rgb(254, 255, 254);
+  --bleu: #1895ED;
+  --blackin: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1895ED;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: var(--fonttitle);
+    font-size: 3vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav > a{
+    margin-left: 10px;
+    text-decoration: underline;
+    font-family: var(--fontnormal);
+    color: var(--bleu);
+}
+
+img.formate{
+    width: 15%;
+}
+
+.card{
+    border-style: ridge;
+    border-color: black;
+    display: table-column-group;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 90px;
+
+    height: 30vh;
+}
+
+.card > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
