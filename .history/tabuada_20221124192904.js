@@ -12,5 +12,5 @@ function multiplicar(){
     function resetar(){
         let res = document.getElementById("res")
 
-        res.innerHTML = ` `
+        res.innerHTML = ``
     }

@@ -31,7 +31,7 @@ header {
 h1 {
   color: white;
   font-family: bebas, sans-serif;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 35px;
@@ -49,24 +49,48 @@ h2{
     margin: 20px;
 }
 
-a{
-    color: #1895ED;
-}
-
-a:hover{
-    font-size: 1.2em;
-}
-
-main{
+section{
     margin: auto;
     text-align: center;
+    margin-top: 90px;
+    border-style: ridge;
+    border-color: #1895ED;
+    border-radius: 10px;
+    min-width: 200px;
+    width: 460px;
+    height: auto;
+    padding: 10px;
 }
 
-div{
-    margin-bottom: 50px;
-    min-width: 300px;
+.number{
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border-color: #1895ED;
 }
 
-iframe{
-    min-width: 300px;
+.button{
+    width: 140px;
+    height: 26px;
+    border-radius: 10px;
+    border-color: var(--bleu);
+    background-color: var(--bleu);
+    color: white;
+    font-family: var(--fontnormal);
+    font-size: 16px;
+    text-decoration: none;
 }
+
+.button:hover{
+    text-decoration: underline;
+}
+
+#res{
+  
+}
+
+

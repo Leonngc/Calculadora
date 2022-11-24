@@ -9,8 +9,11 @@ function multiplicar(){
         res.innerHTML += `${num} x ${cont} = ${num*cont} <br>`
     }        
 }
-    function resetar(){
-        let res = document.getElementById("res")
 
-        res.innerHTML = ` `
-    }
+function resetar(){
+    let num = document.getElementById("num")
+    let res = document.getElementById("res")
+
+    res.innerHTML = ` `
+    num.innerHTML = ``
+}
