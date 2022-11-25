@@ -5,12 +5,10 @@ function multiplicar(){
     let cont = 0
     let res = document.getElementById("res")
     let n = Number(num.value)
-    if(!clicado){ 
-        for(cont = 0 ; cont <=10; cont++) {
+    if(!clicado){ for(cont = 0 ; cont <=10; cont++) {
         res.innerHTML += `${n} x ${cont} = ${n*cont} <br>`
-    }
-    clicado = true
-}
+        
+    }}
     
            }
 
@@ -18,6 +16,5 @@ function multiplicar(){
         let res = document.getElementById("res")
 
         res.innerHTML = ` `
-        clicado = false
     }
 

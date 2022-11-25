@@ -18,6 +18,5 @@ function multiplicar(){
         let res = document.getElementById("res")
 
         res.innerHTML = ` `
-        clicado = false
     }
 

@@ -9,7 +9,6 @@ function multiplicar(){
         for(cont = 0 ; cont <=10; cont++) {
         res.innerHTML += `${n} x ${cont} = ${n*cont} <br>`
     }
-    clicado = true
 }
     
            }
@@ -18,6 +17,5 @@ function multiplicar(){
         let res = document.getElementById("res")
 
         res.innerHTML = ` `
-        clicado = false
     }
 
