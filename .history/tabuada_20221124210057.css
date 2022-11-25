@@ -59,7 +59,7 @@ form {
   border-style: ridge;
   border-color: #1895ed;
   border-radius: 10px;
-  min-width: 320px;
+  min-width: 200px;
   width: 120px;
   height: auto;
 }
