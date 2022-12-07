@@ -91,7 +91,7 @@ main {
   margin-bottom: 90px;
   background-color: white;
   width: 560px;
-  height: 450px;
+  height: 40px;
   border-radius: 12px;
   -webkit-box-shadow: 9px 10px 5px 3px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 9px 10px 5px 3px rgba(0, 0, 0, 0.14);
@@ -117,14 +117,4 @@ a{
     color: white;
     background-color: #1274cc;
     padding: 2px;
-}
-
-@media screen and (max-width: 500px) {
-  main{
-    width: 350px;
-  }
-
-  main > p{
-    font-size: 16px;
-  }
 }

@@ -169,7 +169,8 @@ footer > a {
     font-size: 15px;
   }
 
- .infos > h2{
-    font-size: 15px;
+  input.operations{
+    list-style: none;
+    border-width: 20px;
   }
 }
